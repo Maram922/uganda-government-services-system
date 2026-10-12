@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/UgandaGovPlatform.iml" filepath="$PROJECT_DIR$/UgandaGovPlatform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gov.core/gov.core.iml" filepath="$PROJECT_DIR$/gov.core/gov.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gov.portal/gov.portal.iml" filepath="$PROJECT_DIR$/gov.portal/gov.portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gov.security/gov.security.iml" filepath="$PROJECT_DIR$/gov.security/gov.security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gov.services/gov.services.iml" filepath="$PROJECT_DIR$/gov.services/gov.services.iml" />
+    </modules>
+  </component>
+</project>
