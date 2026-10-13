@@ -5,4 +5,8 @@ public class PassportService {
         System.out.println("Processing passport application...");
         System.out.println("Passport processed successfully.");
     }
+
+    public int getProcessingDays(){
+        return 21;
+    }
 }
