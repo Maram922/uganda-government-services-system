@@ -10,7 +10,7 @@ public class MainApplication {
     static void main(String[] args) {
         AuthenticationService auth = new AuthenticationService();
 
-        if(auth.login()){
+        if(auth.login("admin", "admin123")){
             System.out.println("User authenticated successfully");
 
             TaxService taxService = new TaxService();
