@@ -2,6 +2,7 @@ package gov.services.tax;
 
 public class TaxService {
     public void collectTax(){
+        System.out.println("Calculating tax...");
         System.out.println("Tax collected successfully");
     }
 }
