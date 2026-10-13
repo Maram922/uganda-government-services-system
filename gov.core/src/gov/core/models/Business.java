@@ -39,4 +39,9 @@ public class Business {
     public void setSector(String sector) {
         this.sector = sector;
     }
+
+    @Override
+    public String toString() {
+        return "Business{businessId='" + businessId + "', businessName='" + businessName + "', sector='" + sector + "'}";
+    }
 }
