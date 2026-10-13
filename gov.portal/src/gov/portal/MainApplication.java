@@ -1,5 +1,6 @@
 package gov.portal;
 
+import gov.core.models.Citizen;
 import gov.security.services.*;
 import gov.services.tax.*;
 import gov.services.identity.*;
@@ -12,6 +13,14 @@ public class MainApplication {
 
         if(auth.login()){
             System.out.println("User authenticated successfully");
+
+            Citizen citizen = new Citizen("CM12345678", "John Okello");
+
+            System.out.println("Name: " +
+                    citizen.getName());
+
+            System.out.println("National ID: " +
+                    citizen.getNationalId());
 
             TaxService taxService = new TaxService();
             taxService.collectTax();
